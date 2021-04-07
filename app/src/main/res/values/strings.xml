@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SaurabhNeoSTORE</string>
+    <string name="checkbox"><![CDATA[I agree the Terms & Conditions]]></string>
+    <string name="navigationdrawer_open">Open navigation drawer</string>
+    <string name="navigationdrawer_close">Close navigation drawer</string>
+</resources>
