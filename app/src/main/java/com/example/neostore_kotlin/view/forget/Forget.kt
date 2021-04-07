@@ -33,6 +33,7 @@ class Forget : AppCompatActivity() {
         viewModel.getForgetListObserver().observe(this,Observer<LoginModel>{
             if(it!=null)
             {
+                Log.d("annu","success")
                 val intent=Intent(this,Login::class.java)
                 setResult(2,intent)
                 finish()
@@ -63,7 +64,7 @@ class Forget : AppCompatActivity() {
             }
             else
             {
-                Log.d("annu","success")
+
                 viewModel.makeForgetApiCall(emailid)
 
             }
